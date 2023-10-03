@@ -4,8 +4,21 @@ if ENV["COVERAGE"]
   SimpleCov.start do
     add_group "Model", "app/models"
     add_group "Controller", "app/controllers"
+    add_group "Helpers", "app/helpers"
     add_group "Mailer", "app/mailers"
+    add_group "Services", "app/services"
   end
+end
+
+require 'simplecov'
+SimpleCov.start do
+  add_group "Model", "app/models"
+  add_group "Controller", "app/controllers"
+  add_group "Helpers", "app/helpers"
+  add_group "Mailer", "app/mailers"
+  add_group "Services", "app/services"
+  add_filter "/test/"
+  add_filter "/spec/"
 end
 
 ENV["RAILS_ENV"] ||= "test"
