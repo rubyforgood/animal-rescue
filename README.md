@@ -17,7 +17,7 @@ https://github.com/rbenv/rbenv) and [asdf](https://github.com/asdf-vm/asdf-ruby)
 
 Clone the codebase 
 ```
-git clone git@github.com:rubyforgood/pet-rescue.git
+git clone git@github.com:rubyforgood/animal-rescue.git
 ```
 
 Create a new `config/application.yml` file from the `config/application.example.yml`:
@@ -59,9 +59,6 @@ To configure your local dev env to test subdomains, you will need to [edit your 
 
 Add the following line:
 
-```text
-127.0.0.1 localhost pet-rescue.local alta.pet-rescue.local rubyforgood.pet-rescue.local
-```
 This will map the two seed Orgs with the correct subdomains
 
 # 🧪 Running Tests
