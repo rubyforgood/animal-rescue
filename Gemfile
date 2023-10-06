@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-ruby "3.1.4"
+ruby "3.2.2"
 
 gem "active_storage_validations"
 gem "activeadmin"
@@ -10,7 +10,7 @@ gem "azure-storage-blob", "~> 2.0", require: false
 gem "bootsnap", require: false
 gem "bootstrap"
 gem "chartkick", "~> 5.0"
-gem "city-state", "~> 0.1.0"
+gem "city-state"
 gem "dartsass-rails"
 gem "devise"
 gem "figaro"
@@ -19,7 +19,7 @@ gem "importmap-rails"
 gem "jbuilder"
 gem "phonelib"
 gem "pg", "~> 1.1"
-gem "puma", "~> 5.0"
+gem "puma", "~> 6.0"
 gem "rails", "~> 7.0.3"
 gem "rails-i18n"
 gem "requestjs-rails", "~> 0.0.10"
@@ -54,9 +54,8 @@ group :test do
   gem "capybara"
   gem "cuprite"
   gem "evil_systems", "~> 1.1"
-  gem 'selenium-webdriver'
+  gem "selenium-webdriver"
   gem "shoulda", "~> 4.0"
   gem "shoulda-matchers"
   gem "simplecov", require: false
 end
-
