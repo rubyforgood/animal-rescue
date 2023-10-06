@@ -54,8 +54,9 @@ group :test do
   gem "capybara"
   gem "cuprite"
   gem "evil_systems", "~> 1.1"
-  gem "selenium-webdriver"
+  gem 'selenium-webdriver'
   gem "shoulda", "~> 4.0"
   gem "shoulda-matchers"
   gem "simplecov", require: false
 end
+
