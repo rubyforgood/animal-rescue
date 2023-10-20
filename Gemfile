@@ -13,6 +13,7 @@ gem "chartkick", "~> 5.0"
 gem "city-state", "~> 0.1.0"
 gem "dartsass-rails"
 gem "devise"
+gem 'inherited_resources'
 gem "figaro"
 gem "geocoder"
 gem "importmap-rails"
@@ -59,4 +60,3 @@ group :test do
   gem "shoulda-matchers"
   gem "simplecov", require: false
 end
-
