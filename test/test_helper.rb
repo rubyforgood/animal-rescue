@@ -10,7 +10,7 @@ if ENV["COVERAGE"]
   end
 end
 
-require 'simplecov'
+require "simplecov"
 SimpleCov.start do
   add_group "Model", "app/models"
   add_group "Controller", "app/controllers"
